@@ -8,7 +8,7 @@ export const PRODUCTS = [
   {
     id: 2,
     productName: 'Dota 3',
-    price: 0,
+    price: 0.01,
     productImage: 'https://i.imgur.com/g06cnOf.jpeg',
   },
   {
