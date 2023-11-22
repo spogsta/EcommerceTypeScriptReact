@@ -10,7 +10,7 @@ export const Shop = () => {
         <h1>Tummy Time!</h1>
       </div>
 
-      <div className="products">
+      <div className="products"> {/* Maps through products, uses Product to place elements in it's own section through prouct props */}
         {PRODUCTS.map((product) => (
           <Product data={product} />
         ))}

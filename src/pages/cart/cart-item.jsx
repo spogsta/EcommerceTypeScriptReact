@@ -5,7 +5,7 @@ import { ShopContext } from '../../context/shopcontext';
 export const CartItem = (props) => {
   const { id, productName, price, productImage } = props.data;
   const { addToCart, removeFromCart, cartItems, updateCartItemCount } =
-    useContext(ShopContext);
+    useContext(ShopContext); 
 
   return (
     <div className="cartItem">

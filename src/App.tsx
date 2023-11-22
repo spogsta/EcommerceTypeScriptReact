@@ -14,7 +14,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Shop />} />
+          <Route path="/" element={<Shop />} /> {/* Page switch in navbar using react-router-dom */}
           <Route path="/cart" element={<Cart />} />
         </Routes>
       </Router>
